@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ПATTACHFILES</title>
+        <link rel="stylesheet" href="/styles/style.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="/scripts/main.js"></script>
+        <link rel="stylesheet" href="/awesome/css/font-awesome.min.css">
+        <meta name="format-detection" content="telephone=no">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <i class="fa-upload fa-2x"></i>
+                <h1>ATTACHFILES</h1>
+                <select id="color-bar">
+                  <option value="none" style="background-color: white">Show All</option>
+                </select>
+            </header>
+            <div class="content">
+                <ul id='records-list'>
+                </ul>
+            </div>
+            <form id="myForm" enctype="multipart/form-data" method="POST">
+                <label class="input_file">
+                    <input id="files" type="file" name="file" multiple/>
+                </label> 
+                <input id="color" type="color" name="color" value="#FFFAF0"/>
+                <textarea id="text" type="text" name="text" required></textarea> 
+                <input id="submit" type="submit" value="">
+            	<ul id="selectedFiles"></ul>
+            </form>
+        </div>
+    </body>
+</html>

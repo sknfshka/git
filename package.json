@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "body-parser": "1.x",
+    "busboy": "^0.2.12",
+    "consolidate": "0.x",
+    "crypto": "0.0.3",
+    "express": "4.x",
+    "fs": "0.0.2",
+    "handlebars": "2.x",
+    "mysql": "2.x"
+  }
+}
